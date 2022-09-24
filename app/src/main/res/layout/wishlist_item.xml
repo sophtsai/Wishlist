@@ -12,6 +12,7 @@
         android:padding="5dp"
         android:textSize="25sp"
         android:textStyle="bold"
+        android:textColor="@color/eggplant"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:text="Name" />
@@ -24,6 +25,7 @@
         android:layout_marginTop="8dp"
         android:textStyle="bold"
         android:textSize="20sp"
+        android:textColor="@color/rose"
         android:textAlignment="viewEnd"
         app:layout_constraintStart_toEndOf="@+id/nameTv"
         app:layout_constraintStart_toStartOf="parent"
@@ -37,6 +39,7 @@
         android:layout_marginStart="72dp"
         android:layout_marginTop="8dp"
         android:textSize="18sp"
+        android:textColor="@color/eggplant"
         android:textAlignment="viewEnd"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/priceTv"

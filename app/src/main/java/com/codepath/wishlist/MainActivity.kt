@@ -28,7 +28,6 @@ class MainActivity : AppCompatActivity() {
         // Create adapter passing in the list of emails
         val adapter = WishlistAdapter(items)
 
-
         button.setOnClickListener {
             if (name.text.toString().isNotEmpty() && price.text.toString().isNotEmpty() && url.text.toString().isNotEmpty()) {
                 val newItem = Wishlist(name.text.toString(), price.text.toString().toFloat(), url.text.toString())
